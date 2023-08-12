@@ -127,16 +127,6 @@ h3 {
     gap: 20px;
 }
 
-@media (max-width: 576px) {
-    .dieuhuong {
-        gap: 10px;
-    }
-
-    .toggle-menu {
-        display: block !important;
-    }
-}
-
 .dieuhuong li {
     flex-shrink: 0;
     display: flex;
@@ -171,15 +161,7 @@ h3 {
 }
 
 .toggle-menu {
-    position: fixed;
-    height: 40vh;
-    width: 9px;
-    background-color: #28a745;
-    left: 0;
-    border-radius: 6px;
-    top: 50%;
-    transform: translateY(-50%);
-    display: none;
+    display: none !important;
 }
 
 .mb-menu-child {
@@ -219,4 +201,14 @@ h3 {
     top: 10px;
     right: 20px;
     font-size: 20px;
+}
+
+@media (max-width: 576px) {
+    .dieuhuong {
+        gap: 14px;
+    }
+
+    .toggle-menu {
+        display: block !important;
+    }
 }
