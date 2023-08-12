@@ -211,4 +211,24 @@ h3 {
     .toggle-menu {
         display: flex !important;
     }
+
+    .none-mb {
+        display: none !important;
+    }
+
+    .fixed {
+        justify-content: space-between;
+    }
+
+    .fixed i {
+        font-size: 24px;
+    }
+
+    .item {
+        min-width: 50%;
+    }
+}
+
+.none-mb {
+    display: flex;
 }
