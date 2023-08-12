@@ -167,18 +167,24 @@ h3 {
 .mb-menu-child {
     position: fixed;
     background-color: #fff;
-    width: 70vw;
+    width: 100vw;
     height: 100vh;
     z-index: 9999999999;
-    padding: 50px 0;
+    padding: 10px 0;
+    margin-top: 74px;
 }
 
-.mb-menu-child li {
+.mb-menu-child > li {
     margin-bottom: 20px !important;
-    border: 1px solid #eee;
     box-shadow: none !important;
     padding: 10px 6px !important;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: transparent !important;
+    color: #666;
+    font-weight: 500;
+}
+
+.mb-menu-child > li.active {
+    color: #ee4d2d !important;
 }
 
 .obverlay {
@@ -231,4 +237,35 @@ h3 {
 
 .none-mb {
     display: flex;
+}
+
+.info-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    color: #fff;
+}
+
+.product-header {
+    flex-direction: column;
+    align-items: flex-start !important;
+    padding: 0 10px;
+}
+
+.product-header ul {
+    padding-left: 30px;
+}
+
+.product-header ul li {
+    padding: 6px 0;
+}
+
+.active-header {
+    display: none !important;
+}
+
+@media (max-width: 576px) {
+    .active-header {
+        display: block !important;
+    }
 }
