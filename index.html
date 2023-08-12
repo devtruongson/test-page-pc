@@ -21,12 +21,76 @@
     <link rel="stylesheet" href="./style.css" />
     <body>
         <div class="main">
+            <div class="menu-mb">
+                <div class="meu-mb-wp">
+                    <div class="obverlay"></div>
+                    <ul class="navi-wp mb-menu-child">
+                        <button class="close-header">
+                            <i class="fa-solid fa-xmark"></i>
+                        </button>
+                        <li>
+                            <img src="./profile-cus.png" alt="" />
+                            <span>Tài khoản của tôi</span>
+                        </li>
+                        <li>
+                            <img src="./naptien.png" alt="" />
+                            <span>Nạp tiền</span>
+                        </li>
+                        <li>
+                            <img src="./giaodich.png" alt="" />
+                            <span>Giao Dịch</span>
+                        </li>
+                        <li class="active">
+                            <img src="./dautu.png" alt="" />
+                            <span>Đầu tư</span>
+                        </li>
+                        <li>
+                            <img src="./ruttien.png" alt="" />
+                            <span>Rút tiền</span>
+                        </li>
+                        <li>
+                            <img src="./lichsugd.png" alt="" />
+                            <span>Lịch sử giao dịch</span>
+                        </li>
+                        <li>
+                            <img src="./thietlap.png" alt="" />
+                            <span>Thiết Lập</span>
+                        </li>
+                    </ul>
+                </div>
+                <span class="toggle-menu"></span>
+            </div>
+            <div class="fixed">
+                <div class="logo">
+                    <strong>LOGO</strong>
+                </div>
+                <div class="navi">
+                    <ul class="dieuhuong">
+                        <li>
+                            <span> 0,00 USD </span>
+                            <i class="fa-solid deg-90 fa-angle-left"></i>
+                        </li>
+                        <li class="ms-3">
+                            <img src="./Vector Smart Object.png" alt="" />
+                        </li>
+                        <li>
+                            <img src="./network.png" alt="" />
+                        </li>
+                        <li>
+                            <i class="fa-regular fa-bell"></i>
+                        </li>
+                        <li>
+                            <img src="./profile.png" alt="" />
+                        </li>
+                    </ul>
+                </div>
+            </div>
             <div class="container py-5">
                 <div class="row">
-                    <div class="col-2">
-                        <ul>
+                    <div class="col-2 d-none d-sm-block">
+                        <ul class="navi-wp">
                             <li>
-                                <img src="./profile.png" alt="" />
+                                <img src="./profile-cus.png" alt="" />
                                 <span>Tài khoản của tôi</span>
                             </li>
                             <li>
@@ -55,21 +119,22 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-10">
+                    <div class="col-12 col-sm-10">
                         <div class="right">
                             <h3>Lịch sử giao dịch</h3>
                             <p></p>
                             <div class="item">
                                 30 ngày trước<i
-                                    class="fa-solid fa-angle-left"
+                                    class="fa-solid deg-90 fa-angle-left"
                                 ></i>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="fixed-end"></div>
         </div>
-
+        <script src="./main.js"></script>
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
