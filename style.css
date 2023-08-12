@@ -172,6 +172,7 @@ h3 {
     z-index: 9999999999;
     padding: 10px 0;
     margin-top: 74px;
+    overflow: auto;
 }
 
 .mb-menu-child > li {
